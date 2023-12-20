@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color:#fff; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* COMMAN CSS */
+
+.df {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.df-w {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jcsb {
+  justify-content: space-between;
+}
+.jcsa{
+  justify-content: space-around;
+}
+.wd {
+  width: 100%;
+}
+.w80{
+  width: 250%;
+}
+
+.w33 {
+  width: 33.33%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.mx-w {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.mx-w-d {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.mx-w-s{
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
