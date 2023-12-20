@@ -13,7 +13,7 @@ const Card = (props) => {
         <img src={props.cardData.img} />
         </div>
        
-        <h5>{props.cardData.Name}</h5>
+        <p>{props.cardData.Name}</p>
         <p class="price">From ₹{props.cardData.From} / <span>{props.cardData.Q}KG</span></p>
         <div className='inbtn'><button className='pluse' onClick={()=>{props.onAddInc(props.cardData.Name)}}><FontAwesomeIcon icon={faPlus} fade  style={{color : 'green'}}/></button>
         <span className='span'>₹{parseInt(props.cardData.From) * parseInt(props.cardData.orderedQ)}  /</span> <span className='span'>{parseInt(props.cardData.Q) * parseInt(props.cardData.orderedQ) }KG</span>

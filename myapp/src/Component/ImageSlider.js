@@ -20,12 +20,14 @@ const ImageSlider = () => {
              <div className="" style={{ paddingTop: '16px', cursor: "pointer" }}>
                 <SimpleImageSlider
                 className="imagesilder"
-                width={'100%'}
-                height={'18rem'}
+                    width={'100%'}
+                    height={'15rem'}
                     images={images}
                     showBullets={true}
                     showNavs={true}
                     autoPlay
+                    
+                   
                 />
             </div>
         </div>
