@@ -77,3 +77,51 @@ hr {
     list-style: none;
     padding-left: 0px;
 }
+
+@media only screen and (max-width: 600px){
+    .ft {
+        padding: 2px 3px;
+        background-color: #172337;
+    
+    }
+    .ft .link ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 8px;
+        padding-left: 20px;
+        font-weight: 400;
+        padding-right: 10px;
+    }
+    .ft .img-link img {
+        list-style: none;
+        padding-left: 0px;
+        width: 10rem;
+      
+    }
+
+    .dn{
+        display: none;
+    }
+    .vs{
+        padding-left: 15px;
+        font-size: 12px;
+    }
+
+    .footer .grid-item ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 6px;
+       color: #fff;
+    }
+    .footer {
+        margin-top: 10px;
+        padding: 10px 8px;
+        background-color: #172337;
+        color: #aaa8a8;
+    
+    }
+    .h{
+        font-size: 7px;
+        font-size: 400;
+    }
+}

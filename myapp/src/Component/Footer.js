@@ -12,7 +12,7 @@ const Footer = () => {
              <div class="footer">
         <div class="mx-w df jcsb ">
             <div class="grid-item ">
-                <h5>ABOUT</h5>
+                <p className='h'>ABOUT</p>
                 <ul>
                     <li><a href="">Contact Us</a></li>
                     <li><a href="">About Us</a></li>
@@ -25,7 +25,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div class="grid-item">
-                <h5>HELP</h5>
+                <p className='h' >HELP</p>
                 <ul>
                     <li><a href="">payments</a></li>
                     <li><a href="">Shipping</a></li>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div class="grid-item">
-                <h5>CONSUMER POLICY</h5>
+                <p className='h'>CONSUMER POLICY</p>
                 <ul>
                     <li><a href="">Cancellation&Returns</a></li>
                     <li><a href="">Terms of Use</a></li>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div class="grid-item">
-                <h5>SOCIAL</h5>
+                <p className='h'>SOCIAL</p>
                 <ul>
                     <li><a href="">Facebook</a></li>
                     <li><a href="">Twitter</a></li>
@@ -58,7 +58,7 @@ const Footer = () => {
 
             <div class="grid-item vl">
 
-                <h5>Mail Us:</h5>
+                <p className='h'>Mail Us:</p>
                 <ul>
                     <li><a href="">Flipkart Internet Private Limited,</a></li>
                     <li><a href="">Buildings Alyssa, Begonia &</a></li>
@@ -69,7 +69,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div class="grid-item">
-                <h5>Registered Office Address:</h5>
+                <p className='h'>Registered Office Address:</p>
                 <ul>
                     <li><a href="">Flipkart Internet Private Limited,</a></li>
                     <li><a href="">Buildings Alyssa, Begonia &</a></li>
@@ -89,11 +89,11 @@ const Footer = () => {
             <div class="link df ">
                 <ul>
            
-                    <li><a href=""><FontAwesomeIcon icon={faStore} style={{color: "yellow", paddingRight : '6px'}} />Become a Seller</a></li>
-                    <li><a href=""><FontAwesomeIcon icon={faWandMagicSparkles} style={{color: "yellow", paddingRight : '6px'}} />Advertise</a></li>
-                    <li><a href=""><FontAwesomeIcon icon={faGift} style={{color: "yellow", paddingRight : '6px'}}/>Gift Cards</a></li>
-                    <li><a href=""><FontAwesomeIcon icon={faCircleQuestion} style={{color: "yellow", paddingRight : '6px'}} />Help Center</a></li>
-                    <li><a href="">© 2007-2023 Flipkart.com</a></li>
+                    <li className='vs'><FontAwesomeIcon icon={faStore} style={{color: "yellow", paddingRight : '6px'}} /><a href="" className='dn'>Become a Seller</a></li>
+                    <li className='vs'><FontAwesomeIcon icon={faWandMagicSparkles} style={{color: "yellow", paddingRight : '6px'}} /><a href="" className='dn'>Advertise</a></li>
+                    <li className='vs'><FontAwesomeIcon icon={faGift} style={{color: "yellow", paddingRight : '6px'}}/><a href="" className='dn'>Gift Cards</a></li>
+                    <li className='vs'><FontAwesomeIcon icon={faCircleQuestion} style={{color: "yellow", paddingRight : '6px'}} /><a href="" className='dn'>Help Center</a></li>
+                    <li className='vs'><a>© 2007-2023 Flipkart.com</a></li>
                 </ul>
             </div>
             <div class="img-link">

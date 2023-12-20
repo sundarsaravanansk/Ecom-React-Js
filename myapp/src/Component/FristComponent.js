@@ -16,9 +16,9 @@ const FristComponent = () => {
      
         },
         
-       {
+        {
             id :3 ,
-            img : "https://abicake.com/wp-content/uploads/2020/09/Andhra-Murukku-Plain-1-300x300.gif",
+            img : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcr1-gk6lfLTX7nHPi29Pnxksr4yU3EENDjg&usqp=CAU",
             Name : "Snacks",
      
         },
@@ -68,7 +68,7 @@ const FristComponent = () => {
                         data.map((val) => (
                             <div className='col'>
                                 <div >
-                                    <img className='zoom' src={val.img} style={{ width: '4rem', height : '4rem' }} />
+                                    <img className='zoom img' src={val.img}/>
                                     <p className='name'>{val.Name}</p>
                                 </div>
                             </div>

@@ -18,7 +18,7 @@ const Header = (props) => {
         <div class="head">
           <div class="mx-w-d  df ">
             <div class="img">
-              <img src="./image/flipkart-logo.png" style={{ width: "70px" }} />
+              <img src="./image/flipkart-logo.png"/>
               <p>
                 Explore <span>Plus</span>
               </p>
@@ -28,11 +28,7 @@ const Header = (props) => {
               <input type="text" placeholder="Search for products,brands" />
              <FontAwesomeIcon
                 icon={ faMagnifyingGlass }
-                style={{
-                  color: "#0652ea",
-                  position: "relative",
-                  right: "30px",
-                }}
+                className="doller"
               /> 
             </div>
 
@@ -41,15 +37,15 @@ const Header = (props) => {
             </div>
 
             <div className="df side">
-              <div className="pd-lft">
+              <div className="pd-lft ">
               <FontAwesomeIcon
                   icon={faStore}
                   style={{ color: "#fff", paddingRight: "6px" }}
                 />  
-                <a href="">Become a Seller</a>
+                <a href="" className='dn'>Become a Seller</a>
               </div>
               <div class="dropdown-2 pd-lft">
-                <a href="">products</a>
+                <a href="" className='dn'>products</a>
 
                 <div class="dropdown-content-2">
                   <a
@@ -93,19 +89,21 @@ const Header = (props) => {
               <div className="pd-lft">
                  <FontAwesomeIcon
                   icon={faCartShopping}
+                  onClick = {props.onTriggerpopup}
                   style={{
                     color: "#e6efec",
                     paddingRight: "5px",
                     fontSize: "15px",
                     cursor: "pointer",
+                   
                   }}
                 />  
 
                  <button
                   href=""
-                  class="cart-btn"
+                  class="cart-btn dn"
                   role="button"
-                   onClick={props.onTriggerpopup}
+              
                 > 
                   Cart {props.headerCount}
                 </button>

@@ -40,9 +40,7 @@ const PopupCard = (props) => {
         </div>
       </div>
     );
-  } else {
-    return <div>Card is Empty</div>;
-  };
+  } 
 }
 
 export default PopupCard;

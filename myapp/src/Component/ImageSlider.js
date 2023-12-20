@@ -1,4 +1,5 @@
 import React from 'react';
+import './Image.css';
 //npm i react-simple-image-slider 
 import SimpleImageSlider from "react-simple-image-slider";
 
@@ -18,8 +19,9 @@ const ImageSlider = () => {
           
              <div className="" style={{ paddingTop: '16px', cursor: "pointer" }}>
                 <SimpleImageSlider
-                    width={'100%'}
-                    height={'21rem'}
+                className="imagesilder"
+                width={'100%'}
+                height={'18rem'}
                     images={images}
                     showBullets={true}
                     showNavs={true}

@@ -10,7 +10,7 @@ const Card = (props) => {
               <div class="card">
                 
             <div className='zoom'>
-        <img src={props.cardData.img}  style={{width:'15rem' , height : '13rem', borderRadius : '20px'}}/>
+        <img src={props.cardData.img} />
         </div>
        
         <h5>{props.cardData.Name}</h5>
